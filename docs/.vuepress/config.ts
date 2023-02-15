@@ -1,12 +1,13 @@
 import { defineUserConfig } from "vuepress"
 import { defaultTheme } from "@vuepress/theme-default"
-import { head, navbarZh, sidebarZh } from "./configs/index"
+import { head, navbarZh, sidebarZh, plugins } from "./configs/index"
 
 export default defineUserConfig({
   base: "/record/",
   lang: "zh-CN",
   title: "记录",
   description: "记录学习和问题",
+  // head
   head,
   theme: defaultTheme({
     logo: "/images/logo.png",
@@ -40,4 +41,6 @@ export default defineUserConfig({
       },
     },
   }),
+  // 插件配置
+  plugins,
 })
