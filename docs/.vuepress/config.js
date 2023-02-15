@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/",
+  base: "/record/",
   theme: "reco",
   title: "Node.js 文档",
   description: "Node.js 学习文档及小案例展示",
