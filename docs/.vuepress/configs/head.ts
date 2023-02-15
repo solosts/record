@@ -10,13 +10,4 @@ export const head: HeadConfig[] = [
       href: "/images/logo.png",
     },
   ],
-  [
-    "link",
-    {
-      rel: "icon",
-      type: "image/png",
-      sizes: "16x16",
-      href: "../public/images/logo.png",
-    },
-  ],
 ]
