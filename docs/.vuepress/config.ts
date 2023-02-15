@@ -14,13 +14,16 @@ export default defineUserConfig({
     repo: "https://github.com/solosts/record.git",
     locales: {
       "/": {
-        // navbar
+        home: "/",
+        colorMode: "dark",
         navbar: navbarZh,
-        // sidebar
         sidebar: sidebarZh,
         // page meta
         editLink: false,
+        editLinkText: "在 GitHub 上编辑此页",
+        lastUpdated: true,
         lastUpdatedText: "上次更新",
+        contributors: false,
         contributorsText: "贡献者",
         // custom containers
         tip: "提示",
