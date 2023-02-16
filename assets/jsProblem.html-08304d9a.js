@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-bee1d598","path":"/problemRecord/jsProblem/jsProblem.html","title":"js问题","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"js问题"},"headers":[],"git":{"updatedTime":1676451585000,"contributors":[{"name":"wujiajun","email":"2656112018@qq.com","commits":1}]},"filePathRelative":"problemRecord/jsProblem/jsProblem.md"}');export{e as data};

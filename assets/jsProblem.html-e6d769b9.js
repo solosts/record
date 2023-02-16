@@ -1,0 +1,1 @@
+import{_ as s,p as t,q as a,R as e,t as r}from"./framework-204010b2.js";const o={},c=e("h1",{id:"js-问题",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#js-问题","aria-hidden":"true"},"#"),r(" js 问题")],-1),n=[c];function _(d,l){return t(),a("div",null,n)}const h=s(o,[["render",_],["__file","jsProblem.html.vue"]]);export{h as default};

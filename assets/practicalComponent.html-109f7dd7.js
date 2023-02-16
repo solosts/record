@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as c,R as e,t as o}from"./framework-204010b2.js";const n={},r=e("h1",{id:"组件",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#组件","aria-hidden":"true"},"#"),o(" 组件")],-1),s=[r];function _(d,i){return a(),c("div",null,s)}const h=t(n,[["render",_],["__file","practicalComponent.html.vue"]]);export{h as default};

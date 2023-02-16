@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6aa9729a","path":"/utils/practicalMethod/practicalMethod.html","title":"方法","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"方法"},"headers":[],"git":{"updatedTime":1676451585000,"contributors":[{"name":"wujiajun","email":"2656112018@qq.com","commits":1}]},"filePathRelative":"utils/practicalMethod/practicalMethod.md"}');export{t as data};

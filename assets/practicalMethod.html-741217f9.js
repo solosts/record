@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as c,R as e,t as r}from"./framework-204010b2.js";const o={},s=e("h1",{id:"方法",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#方法","aria-hidden":"true"},"#"),r(" 方法")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const l=t(o,[["render",_],["__file","practicalMethod.html.vue"]]);export{l as default};

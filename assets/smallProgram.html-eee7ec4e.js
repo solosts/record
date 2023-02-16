@@ -1,0 +1,1 @@
+import{_ as a,p as t,q as r,R as e,t as s}from"./framework-204010b2.js";const o={},c=e("h1",{id:"小程序",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#小程序","aria-hidden":"true"},"#"),s(" 小程序")],-1),n=[c];function _(l,d){return t(),r("div",null,n)}const h=a(o,[["render",_],["__file","smallProgram.html.vue"]]);export{h as default};
