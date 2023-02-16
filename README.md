@@ -2,23 +2,25 @@
 
 .
 ├── docs
-│ ├── .vuepress (可选的) 用于存放全局的配置、组件、静态资源等
-│ │ ├── components (可选的) 该目录中的 Vue 组件将会被自动注册为全局组件
-│ │ ├── theme (可选的) 用于存放本地主题
-│ │ │ └── Layout.vue
-│ │ ├── public (可选的) 静态资源目录
-│ │ ├── styles (可选的) 用于存放样式相关的文件
-│ │ │ ├── index.styl 将会被自动应用的全局样式文件，会生成在最终的 CSS 文件结尾，具有比默认样式更高的优先级
-│ │ │ └── palette.styl 用于重写默认颜色常量，或者设置新的 stylus 颜色常量
-│ │ ├── templates (可选的, 谨慎配置) 存储 HTML 模板文件
-│ │ │ ├── dev.html 用于开发环境的 HTML 模板文件
-│ │ │ └── ssr.html 构建时基于 Vue SSR 的 HTML 模板文件
-│ │ ├── config.js (可选的) 配置文件的入口文件，也可以是 YML 或 toml。
-│ │ └── enhanceApp.js (可选的) 客户端应用的增强。
+│ ├── .vuepress 用于存放全局的配置、组件、静态资源等
+│ │ ├── .cache 缓存目录
+│ │ ├── .temp 缓存目录
+│ │ ├── dist 打包后文件目录
+│ │ ├── public 静态资源目录
+│ │ │ └── image 图片
+│ │ ├── config.js 配置文件的入口文件，也可以是 YML 或 toml。
 │ │
-│ ├── README.md
-│ ├── guide
-│ │ └── README.md
-│ └── config.md
+│ ├── README.md 首页
+│ ├── problemRecord 问题记录
+│ │ ├── h5 h5 问题
+│ │ ├── jsProblem js 问题
+│ │ ├── smallProgram 小程序问题
+│ │ └── styleProblem 样式问题
+│ ├── utils 工具方法
+│ │ ├── practicalComponent 组件
+│ │ ├── practicalMethod 方法
+│ │ └── practicalTool 工具
 │
+├── deploy.sh sh 文件，运行即可自动提交部署文件
+├── put.bat 自动部署，点击即可自动提交部署文件
 └── package.json
