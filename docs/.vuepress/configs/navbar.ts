@@ -25,7 +25,7 @@ export const navbarZh: NavbarConfig = [
     ],
   },
   {
-    text: "复用",
+    text: "工具方法",
     children: [
       "/utils/practicalMethod/practicalMethod.md",
       "/utils/practicalComponent/practicalComponent.md",

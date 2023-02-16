@@ -27,7 +27,7 @@ export const sidebarZh: SidebarConfig = {
   ],
   "/utils/": [
     {
-      text: "复用",
+      text: "工具方法",
       collapsible: true,
       children: [
         "/utils/practicalMethod/practicalMethod.md",
